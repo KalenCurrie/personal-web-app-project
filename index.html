@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-color: #D8EFD3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        .section {
+            margin: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .about-me, .my-work, .contact {
+            margin: 20px;
+            padding: 20px;
+            background-color: #95D2B3;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #55AD9B;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <h2>by Kalen Currie</h2>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#my-work">My Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me" class="about-me section">
+            <h3>About Me</h3>
+            <img src="images/IMG_0087.jpg" alt="A picture of me">
+            <p>Hello, my name is Kalen Currie. I am currently in grade 12 and planning to go to college to study Electromechanical Engineering Technology - Mechatronics. My future goals in the technology field include pursuing a career in engineering for a fun and interesting job.</p>
+            <p>My experience in the tech field is quite diverse. At the moment, I am in the robotics club. Last year, in the 2023 robotics season, I was part of the programming team. Although my code was not used in the final robot, I learned a lot from the experience.</p>
+            <p>I also created my own game on the ROBLOX platform using Lua. It was a fun project, though I eventually got burned out. Another project I worked on was creating a radar system with a group in Grade 11. This radar used an ultrasonic sensor to detect objects and alert teachers if someone tried to leave the classroom without permission.</p>
+            <h4>Languages</h4>
+            <p>JavaScript, HTML, CSS, Lua, Python</p>
+        </section>
+
+        <section id="my-work" class="my-work section">
+            <h3>My Work</h3>
+            <div>
+                <h4>GUI App</h4>
+                <img src="images/game.png" alt="A picture of my GUI app">
+                <p>The GUI app features two different games: a random guessing game and a reaction time game. I created the main menu, the random guessing game, and the return menu, while my partner Aiden created the reaction time game.</p>
+                <p><strong>Wins:</strong> Successfully adding the main menu and random guessing game. Able to have a working GUI interface with a main menu and a return menu that asks user to return to menu or exit. </p>
+                <p><strong>Challenges:</strong> Trying to carry a variable from one class to the other was challenging because of the lack of knowladge</p>
+                <p><strong>Teammates:</strong> Aiden (developed the reaction time game).</p>
+                <p><strong>Creation Process:</strong> The app was built using Java Swing. I focused on creating the main menu, return menu and the random guessing game. My partner Aiden developed the reaction time game. We collaborated to create both games into the app and tested it ensure it works.</p>
+                <p><strong>Future Plans:</strong> I plan to enhance the app by adding more mini-games and improving the existing ones.</p>
+            </div>
+
+            <div>
+                <h4>Interactive App</h4>
+                <img src="images/radar.jpg" alt="A picture of the radar">
+                <p>This radar system was created with a group in Grade 11. It uses an ultrasonic sensor to detect objects and alerts teachers if someone tries to leave the classroom without permission. This project helped me understand the practical applications of technology in solving real-world problems.</p>
+                <p><strong>Wins:</strong> Successfully created a functional radar system.</p>
+                <p><strong>Challenges:</strong> Calibrating the sensor for accurate detection.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <section class="contact section">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:kalen.currie@student.tdsb.on.ca">kalen.currie@student.tdsb.on.ca</a></p>
+        </section>
+        <p>Webpage created by Kalen Currie. The date is June 14, 2024</p>
+    </footer>
+</body>
+</html>
