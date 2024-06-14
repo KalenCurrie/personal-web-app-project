@@ -61,7 +61,7 @@
     <main>
         <section id="about-me" class="about-me section">
             <h3>About Me</h3>
-            <img src="images/IMG_0087.jpg" alt="A picture of me">
+            <img src="images/IMG_0087 (1).jpg" width="300" height="400" alt="A picture of me">
             <p>Hello, my name is Kalen Currie. I am currently in grade 12 and planning to go to college to study Electromechanical Engineering Technology - Mechatronics. My future goals in the technology field include pursuing a career in engineering for a fun and interesting job.</p>
             <p>My experience in the tech field is quite diverse. At the moment, I am in the robotics club. Last year, in the 2023 robotics season, I was part of the programming team. Although my code was not used in the final robot, I learned a lot from the experience.</p>
             <p>I also created my own game on the ROBLOX platform using Lua. It was a fun project, though I eventually got burned out. Another project I worked on was creating a radar system with a group in Grade 11. This radar used an ultrasonic sensor to detect objects and alert teachers if someone tried to leave the classroom without permission.</p>
@@ -89,13 +89,16 @@
 
             <div>
                 <h4>Interactive App</h4>
-                <img src="images/radar.jpg" alt="A picture of the radar">
-                <p>This radar system was created with a group in Grade 11. It uses an ultrasonic sensor to detect objects and alerts teachers if someone tries to leave the classroom without permission. This project helped me understand the practical applications of technology in solving real-world problems.</p>
-                <p><strong>Wins:</strong>  </p>
-                <p><strong>Challenges:</strong> </p>
-                <p><strong>Teammates:</strong> </p>
-                <p><strong>Creation Process:</strong></p>
-                <p><strong>Future Plans:</strong></p>
+                <img src="images/ba.png" width="200" height="300" alt="A picture of minesweeper app">
+                <img src="images/bb.png" width="200" height="300" alt="game over screen">
+                <img src="images/bc.png" width="200" height="300" alt="main menu">
+                <img src="images/bd.png" width="200" height="300" alt="dark mode enabled">
+                <img src="images/be.png" width="200" height="300" alt="modifier notification">
+                <p>The Interactive App is a modded version of minesweeper named MineModder. The game can be modifited to have differnt features, for example you can set the number of ombs, size of board, etc.</p>
+                <p><strong>Wins: </strong> Successfully creating a working minesweeper game. Able to have a working mainmenu that changes the game of the minesweeper, for example the modifires work and change the game. </p>
+                <p><strong>Challenges:</strong> Creating the modifiers was not an easy task as adding the notification at the bottom of the board leting the user know a modifier was added was a challange and I needed to research to get to work.</p>
+                <p><strong>Creation Process:</strong> I first followed a youtube code along that showed me how to create the minesweeper game (Credit to <a href="https://www.youtube.com/@KennyYipCoding">Kenny Yip Coding</a>). I then built off his game to create a mian menu and a modifiers for the game. I also added some accesibility options like dark mode and zen mode.</p>
+                <p><strong>Future Plans:</strong> The furture plans of the app is creating different type of theming for the app as it is just the default grey and white background unless dark mode is turned on.</p>
             </div>
         </section>
     </main>
@@ -105,7 +108,11 @@
             <h3>Contact Information</h3>
             <p>Email: <a href="mailto:kalen.currie@student.tdsb.on.ca">kalen.currie@student.tdsb.on.ca</a></p>
         </section>
-        <p>Webpage created by Kalen Currie. The date is June 14, 2024</p>
+        <p>Webpage created by Kalen Currie. <span id="current-date"></span></p>
     </footer>
+
+    <script>
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString();
+    </script>
 </body>
 </html>
